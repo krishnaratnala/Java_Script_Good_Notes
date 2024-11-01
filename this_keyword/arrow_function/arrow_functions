@@ -1,0 +1,7 @@
+const obj={
+    a:1,
+    b: ()=>{
+        console.log(this)
+    }
+}
+obj.b();
